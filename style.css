@@ -13,7 +13,7 @@ body {
 }
 
 .img_login {
-    margin: 100px 0px 0px 50px;
+    margin: 100px 0px 0px 80px;
     width: 440px;
     position: relative;
 }
@@ -30,7 +30,7 @@ body {
     height: 30%;
     background-color: #8A8D8F;
     position: absolute;
-    margin-left: 485px;
+    margin-left: 520px;
     margin-top: -220px;
 }
 
@@ -48,9 +48,59 @@ body {
 
 .column_position {
  top: -430px;
- margin-left: 520px;
+ margin-left: 560px;
  padding-top: 20px;
  font-weight: 600;
 }
+
+@media (max-width: 576px) { 
+
+    .logo_login {
+        width: 100px;
+        position: absolute;
+        margin: 10px 0px 0px 10px;
+        
+    }
+
+    .login {
+        background-color: white;
+        width: 450px;
+        height: 550px;
+        margin: 40px 0px 0px 0px;
+        box-shadow: 0px 0px 20px #bfbfbf;
+        position: relative;    
+    }
+
+    .column_position {
+        top: -300px;
+        margin-left: 20px;
+       }
+
+       .img_login {
+        margin: 80px 0px 0px 90px;
+        width: 270px;
+       
+    }
+    .footer_login{
+        width: 100%;
+        height: 35px;
+        background-color: #005A9F;
+        margin-top: 260px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .column_login{
+        width: 410px;
+    }
+    .garis{
+        display: none;
+        margin-left: 0px;
+    
+    }
+ }
 
 

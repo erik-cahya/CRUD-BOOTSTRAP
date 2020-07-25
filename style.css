@@ -52,9 +52,11 @@ body {
     font-weight: 600;
 }
 
+
+/* Device Android */
 @media (max-width: 1080px) { 
     .all_content{
-        margin-left: 50px;
+        padding-left: 55px;
     }
     .logo_login {
         width: 100px;

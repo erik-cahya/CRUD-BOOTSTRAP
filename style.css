@@ -25,6 +25,16 @@ body {
     
 }
 
+.column_login{
+    
+}
+.column_login:hover {
+    border-radius: 80px;
+    transition: 2.5s;
+    cursor: pointer;
+}
+
+
 .garis{
     width: 1px;
     height: 30%;
